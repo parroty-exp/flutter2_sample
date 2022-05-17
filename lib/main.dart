@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 var answer = 42;
+final chinese = 'hello 汉字';
 
 void main() {
   runApp(const MyApp());
