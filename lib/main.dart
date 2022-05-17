@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+var answer = 42;
+final chinese = 'hello 汉字';
+
 void main() {
   runApp(const MyApp());
 }
@@ -11,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter Demo v2',
       theme: ThemeData(
         // This is the theme of your application.
         //
