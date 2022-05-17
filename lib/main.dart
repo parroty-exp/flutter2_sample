@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 var answer = 42;
 final chinese = 'hello 汉字';
+var a = 05.23, b = 03.6e+15, c = -012.2, d = -001.1e-15;
 
 void main() {
   runApp(const MyApp());

@@ -48,3 +48,4 @@ dart_code_metrics:
     - no-equal-then-else
     - avoid-non-ascii-symbols
     - avoid-global-state
+    - double-literal-format
