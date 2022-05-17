@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+var answer = 42;
+
 void main() {
   runApp(const MyApp());
 }
