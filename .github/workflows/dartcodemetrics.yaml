@@ -1,5 +1,10 @@
 name: Dart Code Metrics
 on: [push]
+permissions:
+  actions: read
+  checks: write
+  contents: read
+  pull-requests: write
 jobs:
   check:
     name: dart-code-metrics-action
