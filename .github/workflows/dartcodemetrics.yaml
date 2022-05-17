@@ -15,6 +15,5 @@ jobs:
         uses: dart-code-checker/dart-code-metrics-action@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          relative_path: app
           check_unused_files: 'true'
           pull_request_comment: 'true'
